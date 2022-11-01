@@ -1,4 +1,4 @@
-# hub-test
+# hub
 
 ## Requirements
 
