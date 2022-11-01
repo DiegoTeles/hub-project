@@ -1,4 +1,4 @@
-# hubla-test
+# hub-test
 
 ## Requirements
 
