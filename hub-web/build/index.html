@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>React, Webpack, Babel Starter Pack</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src *; 
+connect-src * ws://* wss://*; style-src * 'unsafe-inline' 'unsafe-eval'; media-src * ; 
+img-src * data:; font-src * ; script-src * 'unsafe-inline' 'unsafe-eval';"
+    />
   <script defer src="bundle.js"></script></head>
-  <body>
+  <body style="margin: 0">
     <noscript> You need to enable JavaScript to run this app. </noscript>
     <!-- your react app will render here -->
     <div id="root"></div>

@@ -7,7 +7,7 @@ FROM node:18 As development
 RUN apt-get update && apt-get install -y openssl
 
 # Create app directory
-WORKDIR /usr/src/hub-api
+WORKDIR /usr/src/app
 
 # Copy application dependency manifests to the container image.
 # A wildcard is used to ensure copying both package.json AND package-lock.json (when available).

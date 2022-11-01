@@ -50,7 +50,6 @@ function Dashboard() {
 
   return (
     <>
-      <RankingCard />
       <ContainerTable>
         <div
           style={{
